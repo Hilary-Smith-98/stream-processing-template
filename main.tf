@@ -39,6 +39,7 @@ resource "aws_instance" "msk_client" {
               pip3 install plotly
               pip3 install pandas
               pip3 install dash
+              pip3 install matplotlib
 
 
               # install jupyter
